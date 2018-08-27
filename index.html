@@ -49,35 +49,55 @@
     <div class="container">
 
         <div class="lottery">
-            <h1>下午茶來抽籤!</h1>
-            <div class="row">
-                <ul class="card">
-
-                    <!-- 吃的部分 -->
-                    <li class="col-md-6">
-                        <div class="item">
-                            <div class="" id="decide-food">
-                                <img src="images/food.png" alt="">
-                            </div>
-                            <div>
-                                今天要來吃: <span class="food" id="food"></span>
-                            </div>
+            <h1>
+                <span>
+                    如
+                </span>
+                <span>果</span>
+                <span>不</span>
+                <span>知</span>
+                <span>道</span>
+                <span>要</span>
+                <span>吃</span>
+                <span>什</span>
+                <span>麼</span>
+                <span>?</span>
+                <br>
+                <span>那</span>
+                <span>就</span>
+                <span>來</span>
+                <span>抽</span>
+                <span>籤</span>
+                <span>吧</span>
+                <span>~</span>
+            </h1>
+            <ul class="card row">
+                <!-- 吃的部分 -->
+                <li class="col-md-6">
+                    <div class="item">
+                        <div class="" id="decide-food">
+                            <img src="images/food.png" alt="">
                         </div>
-                    </li>
-
-                    <!-- 喝的部分 -->
-                    <li class="col-md-6">
-                        <div class="item">
-                            <div class="" id="decide-drink">
-                                <img src="images/drink.png" alt="">
-                            </div>
-                            <div class="">
-                                今天要來喝: <span class="drink" id="drink"></span>
-                            </div>
+                        <div>
+                            今天要來吃:
+                            <span class="food" id="food"></span>
                         </div>
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                </li>
+
+                <!-- 喝的部分 -->
+                <li class="col-md-6">
+                    <div class="item">
+                        <div class="" id="decide-drink">
+                            <img src="images/drink.png" alt="">
+                        </div>
+                        <div class="">
+                            今天要來喝:
+                            <span class="drink" id="drink"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 
@@ -92,7 +112,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js'></script>
 
     <script src="js/all.js" type="text/javascript"></script>
-    <!-- <script>
+    <script>
         $(".element").velocity({
             translateX: "500px",
             borderRadius: "99%"
@@ -102,10 +122,8 @@
             delay: 1000,
             // loop:true
         })
-        .velocity("reverse", { duration: 2000 });
-        // $element.velocity({ width: 50 }, [ 0.17, 0.67, 0.83, 0.67 ]);
 
-    </script> -->
+    </script>
 
 
 
