@@ -14,7 +14,7 @@
   
   delay().then(function(){
     $('.text-1').fadeIn(200);
-    return delay(400); // 延遲ㄧ秒
+    return delay(1500); // 延遲ㄧ秒
   }).then(function(){
     $('.text-2').fadeIn(200);
     return delay(400); // 延遲一秒
