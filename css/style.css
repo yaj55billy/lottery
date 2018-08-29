@@ -35,7 +35,10 @@ body{
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
   line-height: 1.4;
-  opacity: 0.1;
+}
+
+.lottery h1 span{
+  display: none;
 }
 
 .lottery .row{
@@ -44,4 +47,8 @@ body{
 
 .lottery .card{
   text-align: center;
+}
+
+.lottery .item-img{
+  cursor: pointer;
 }

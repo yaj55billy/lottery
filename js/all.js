@@ -4,28 +4,69 @@
 (function () {
 
 
-  // 動畫
 
 
-  for (i = 0; i < 17; i++) {
-    var headLen = $('.lottery h1 span');
-    // console.log(headLen[i].innerText);
-    console.log(headLen[i]);
-    $(headLen[i]).velocity({
-      opacity: 1,
-    }, {
-        duration: 4000,
-        // easing: [ 0.17, 0.67, 0.83, 0.67 ],
-        // delay: 1000,
-        loop:true
+  var delay = function(s){
+    return new Promise(function(resolve,reject){
+     setTimeout(resolve,s); 
     });
+  };
+  
+  delay().then(function(){
+    $('.text-1').fadeIn(200);
+    return delay(400); // 延遲ㄧ秒
+  }).then(function(){
+    $('.text-2').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-3').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-4').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-5').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-6').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-7').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-8').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-9').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-10').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-11').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-12').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-13').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-14').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-15').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-16').fadeIn(200);
+    return delay(400); // 延遲一秒
+  }).then(function(){
+    $('.text-17').fadeIn(200);
+    return delay(400); // 延遲一秒
+  });
 
-    // setTimeout(function () {
-    //   // headLen[i].innerText
-    //   // $(".lottery h1").innerText('headLen[i]');
 
-    // }, 200);
-  }
+
 
   // 吃的
   function decideFood() {
