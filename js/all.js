@@ -84,5 +84,15 @@
   }
   $("#decide-drink").click(decideDrink);
 
+
+
+  // $('.item-img img').hover, function(){
+  //   $(this).toggleClass('swing');
+  // });
+
+  $(".item-img img").hover(function() {
+    $(this).stop().toggleClass('swing');
+  });
+
 })();
 
