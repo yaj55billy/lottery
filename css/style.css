@@ -35,10 +35,17 @@ body{
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
   line-height: 1.4;
+  letter-spacing: -2px;
 }
 
 .lottery h1 span{
   display: none;
+}
+
+.lottery .descript{
+  text-align: center;
+  color: gold;
+  font-size: 15px;
 }
 
 .lottery .row{
@@ -51,4 +58,19 @@ body{
 
 .lottery .item-img img{
   cursor: pointer;
+}
+
+/* .item-text{
+  color: #485300;
+} */
+
+.item-text{
+  font-size: 16px;
+  display: inline-block;
+}
+
+.food,.drink{
+  font-size: 28px;
+  font-weight: 700;
+  color: #4D1F00;
 }
